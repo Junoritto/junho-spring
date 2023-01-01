@@ -1,1 +1,3 @@
 ## citron project
+
+./gradlew build
