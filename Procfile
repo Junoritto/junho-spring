@@ -1,1 +1,1 @@
-web: java -jar build/libs/citron-1.0-SNAPSHOT.jar
+java -jar build/libs/citron-1.0-SNAPSHOT.jar
