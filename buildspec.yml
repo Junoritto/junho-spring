@@ -16,6 +16,8 @@ artifacts:
     - appspec.yml
     - build/libs/*.jar
     - scripts/**
+    - deploy.sh
+    - healthCheck.sh
   discard-paths: yes
 
 cache:
