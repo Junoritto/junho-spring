@@ -2,4 +2,3 @@
 
 ./gradlew build
 
-codedeploy use.
