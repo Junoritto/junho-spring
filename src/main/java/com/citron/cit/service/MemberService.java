@@ -7,6 +7,6 @@ import org.springframework.stereotype.Service;
 
 public interface MemberService {
 
-    public void get(MemberServiceDTO memberServiceDTO);
+    public void create(MemberServiceDTO memberServiceDTO);
 
 }

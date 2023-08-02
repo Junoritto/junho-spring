@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 public class MemberServiceImpl implements MemberService{
 
     @Override
-    public void get(MemberServiceDTO memberServiceDTO) {
+    public void create(MemberServiceDTO memberServiceDTO) {
 
     }
 }

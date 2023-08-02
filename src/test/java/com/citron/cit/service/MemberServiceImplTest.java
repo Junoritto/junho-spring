@@ -17,6 +17,6 @@ class MemberServiceImplTest {
 
         //memberService.get(MemberServiceDTO.builder().age(12).name("홍길동").build());
 
-    })
+    }
 
 }

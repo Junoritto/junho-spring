@@ -1,6 +1,8 @@
 package com.citron.cit.service.dto;
 
 import lombok.Builder;
+import lombok.Data;
+import lombok.RequiredArgsConstructor;
 
 public class MemberServiceDTO {
 
