@@ -1,4 +1,0 @@
-## citron project
-
-./gradlew build
-

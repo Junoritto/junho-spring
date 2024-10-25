@@ -1,1 +1,0 @@
-java -jar citron-1.0-SNAPSHOT.jar
