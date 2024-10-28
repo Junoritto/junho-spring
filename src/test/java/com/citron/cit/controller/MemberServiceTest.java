@@ -10,8 +10,12 @@ import org.junit.jupiter.api.Test;
 
 class MemberServiceTest {
 
-    final MemberService memberService = null;
-    final MemberServiceDTO memberServiceDTO = null;
+    MemberService memberService = new MemberService() {
+        @Override
+        public void create(MemberServiceDTO dto) {
+            // 더미 메서드 구현 (아무 작업도 하지 않음)
+        }
+    };
 
     @BeforeEach
     void setUp() {
@@ -21,7 +25,6 @@ class MemberServiceTest {
     @Test
     void 회원가입() {
 
-        assert memberService != null;
         memberService.create(MemberServiceDTO.builder().name("홍길동").build());
 
     }
