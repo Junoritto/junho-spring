@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class MemberController {
+public class MemberService {
 
     @GetMapping("/members")
     @ApiOperation("회원조회")
@@ -23,7 +23,7 @@ public class MemberController {
 
     @DeleteMapping("/members")
     @ApiOperation("회원삭제")
-    public void delect() {
+    public void delete() {
 
     }
 
